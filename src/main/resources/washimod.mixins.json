@@ -1,14 +1,13 @@
 {
-    "required": true,
-    "minVersion": "0.8",
+  "required": true,
   "package": "mayonaka8478.washimod.mixin",
-    "compatibilityLevel": "JAVA_8",
-    "mixins": [
-      "ItemToolHoeMixin"
-    ],
-    "client": [
-    ],
-    "injectors": {
-        "defaultRequire": 1
-  }
+  "compatibilityLevel": "JAVA_${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ItemToolHoeMixin"
+  ],
+  "client": [
+  ]
 }
